@@ -2,9 +2,9 @@ const driver = 'bob';
 
 function calledWithExactly (a, b) {
   if (b) {
-    console.log(a);
-  } else {
     console.log(a, b);
+  } else {
+    console.log(a);
   }
 }
 
