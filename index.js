@@ -10,4 +10,4 @@ function calledWithExactly (a, b) {
 
 calledWithExactly('this code was called');
 calledWithExactly(driver);
-calledWithExactly(driver, something);
+calledWithExactly(driver, 'is the driver bariable name');
