@@ -1,7 +1,7 @@
 const driver = 'bob';
 
-function calledWithExactly (a, b = '') {
-  console.log(a, b);
+function calledWithExactly (a) {
+  console.log(a);
 }
 
 calledWithExactly('this code was called');
